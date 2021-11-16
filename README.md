@@ -1,4 +1,5 @@
-# Lokuri Website
+# Loruki Agency
+
 ## Technical Features of
 
 - PWA
@@ -7,4 +8,3 @@
 - React Router
 - Authentication using JWT
 - Mobile First Responsive Design
-
