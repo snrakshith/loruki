@@ -40,8 +40,8 @@ const Rect = styled.div`
   background-color: #669966;
 
   position: absolute;
-  top: 60px;
-  left: 60px;
+  top: 400px;
+  left: -80px;
   z-index: -1;
   animation: rect 25s linear alternate infinite;
   @keyframes rect {
