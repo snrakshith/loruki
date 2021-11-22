@@ -5,6 +5,8 @@ import styled, { css } from "styled-components";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 import Service from "./components/Service";
+import Price from "./components/Price";
+import Contact from "./components/Contact";
 
 const Container = styled.div`
   height: 100vh;
@@ -43,6 +45,12 @@ const App = () => {
       </Container>
       <Container>
         <Service />
+      </Container>
+      <Container>
+        <Price />
+      </Container>
+      <Container>
+        <Contact />
       </Container>
       <Container>
         <Footer />

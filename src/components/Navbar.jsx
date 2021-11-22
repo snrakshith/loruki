@@ -40,8 +40,9 @@ const Button = styled.button`
   cursor: pointer;
   border: none;
   border-radius: 10px;
-  border-color: white;
+  /* border-color: white; */
   background-color: crimson;
+  border: 1.5px solid white;
   color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
