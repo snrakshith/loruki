@@ -1,4 +1,8 @@
 import React from "react";
+import styled from "styled-components";
+import MiniCard from "./MiniCard";
+
+const Container = styled.div``;
 
 const Service = () => {
   return (
@@ -15,7 +19,9 @@ const Service = () => {
           with you, not for you. Although we have a great resources
         </Desc>
         <CardContainer>
-          <Minicard />
+          <MiniCard />
+          <MiniCard />
+          <MiniCard />
         </CardContainer>
         <Button>How it works</Button>
       </Right>

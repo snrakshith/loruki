@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import styled, { css } from "styled-components";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
+import Service from "./components/Service";
 
 const Container = styled.div`
   height: 100vh;
@@ -39,6 +40,9 @@ const App = () => {
       <Container>
         <Feature />
         <FeatureShape />
+      </Container>
+      <Container>
+        <Service />
       </Container>
       <Container>
         <Footer />
