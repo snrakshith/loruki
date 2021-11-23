@@ -7,6 +7,7 @@ import Play from "../img/play.png";
 
 const Container = styled.div`
   display: flex;
+  height: 100vh;
 `;
 const Left = styled.div`
   width: 50%;
@@ -14,7 +15,7 @@ const Left = styled.div`
 const Image = styled.img`
   /* width: 90%; */
 
-  margin: 80px 0px 0px 160px;
+  margin: 80px 0px 0px 100px;
 `;
 const ButtonImage = styled.img`
   margin-right: 5px;

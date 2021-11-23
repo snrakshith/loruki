@@ -1,15 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 import App from "../img/app.jpg";
+import Group from "../img/group.jpg";
+
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
   display: flex;
+  height: 100vh;
 `;
 const Image = styled.img`
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   width: 90%;
-  height: 100vh;
-  background-color: #fff;
+  height: 80vh;
+  padding: 10px;
 `;
 const Left = styled.div`
   width: 50%;
