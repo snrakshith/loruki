@@ -14,12 +14,6 @@ const Container = styled.div`
 const FormWrapper = styled.div`
   padding: 50px;
 `;
-const Wrapper = styled.div`
-  /* padding: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; */
-`;
 const Title = styled.h1`
   color: #333;
 `;

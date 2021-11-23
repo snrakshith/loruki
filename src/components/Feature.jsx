@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import App from "../img/app.jpg";
-import Group from "../img/group.jpg";
-
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
