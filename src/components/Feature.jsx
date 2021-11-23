@@ -14,8 +14,8 @@ const Image = styled.img`
   justify-content: center;
   align-items: center; */
   width: 90%;
-  height: 80vh;
-  padding: 10px;
+  height: 100vh;
+  padding: 0 20px 10px 10px;
 `;
 const Left = styled.div`
   width: 50%;

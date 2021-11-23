@@ -26,11 +26,11 @@ const IntroShape = styled.div`
   clip-path: polygon(67% 0, 100% 0%, 100% 100%, 55% 100%);
   background-color: crimson;
 `;
-const FeatureShape = styled.div`
-  ${Shape}
-  clip-path: polygon(0 0, 55% 0%, 33% 100%, 0 100%);
-  background-color: pink;
-`;
+// const FeatureShape = styled.div`
+//   ${Shape}
+//   clip-path: polygon(0 0, 55% 0%, 33% 100%, 0 100%);
+//   background-color: pink;
+// `;
 const ServiceShape = styled.div`
   ${Shape}
   clip-path: polygon(0 0, 33% 0, 33% 100%, 0 100%);
@@ -51,7 +51,7 @@ const App = () => {
       </Container>
       <Container>
         <Feature />
-        <FeatureShape />
+        {/* <FeatureShape /> */}
       </Container>
       <Container>
         <Service />
